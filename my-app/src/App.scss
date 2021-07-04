@@ -1,0 +1,7 @@
+@import '../src/Sass/colors';
+@import '../src/Sass/mixins';
+
+body{
+  background: $color-primary;
+  color: $color-bg;
+}
