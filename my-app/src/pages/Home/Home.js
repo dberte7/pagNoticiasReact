@@ -17,6 +17,12 @@ class Home extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
+
+    const user = {
+      name: this.state.name
+    };
+
+    this.setState({user})
   }
 
   render() {

@@ -18,10 +18,13 @@ export class App extends Component {
 
   login = (name) => this.setState({user: {name}});
 
+  logout = () => this.setState({user: {}});
+
   render() {
     const value = {
       user: this.state.user,
-      loginUser: this.login
+      loginUser: this.login,
+      logout: this.logout
     }
 
     return (
