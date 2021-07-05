@@ -7,7 +7,7 @@ function Nav() {
     <nav className="Nav">
       <ul className="Nav__list">
         <li className="Nav__listItem">
-          <Link className="Nav__link" to="/home">Home</Link>
+          <Link className="Nav__link" to="/">Home</Link>
         </li>
         <li>
           <Link to="/form">Formulario</Link>

@@ -12,7 +12,7 @@ class Home extends Component {
   }
 
   handleChange = (e) => {
-    this.setState({user: e.target.value});
+    this.setState({name: e.target.value});
   }
 
   handleSubmit = (e) => {

@@ -5,7 +5,10 @@ function Card(props){
 
     return (
       <>
-        <h3>Titulo: {props.article.title}</h3>
+        <h2>{props.article.title}</h2>
+        <img src={props.article.urlToImage} alt="News" />
+        <p>{props.article.description}</p>
+        <button onClick={props.remove}>Borrar Noticia</button>
       </>
     );
   }

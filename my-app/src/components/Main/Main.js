@@ -12,7 +12,7 @@ class Main extends Component {
       <main className='Main'>
         <div className="wrapper">
           <Switch>
-              <Route path="/home" component={Home} exact />
+              <Route path="/" component={Home} exact />
               <Route path="/form" component={Form} />
               <Route path="/list" component={ListNews} />
           </Switch>
