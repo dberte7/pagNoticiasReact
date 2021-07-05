@@ -6,7 +6,7 @@ import ListNews from '../../pages/ListNews'
 import './Main.scss';
 
 class Main extends Component {
- 
+
   render() {
     return (
       <main className='Main'>
